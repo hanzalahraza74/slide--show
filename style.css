@@ -1,0 +1,188 @@
+/* css reset */
+*{
+margin: 0;
+padding: 0;
+} 
+/* css variables */
+:root{
+      --navbar-height: 59px;
+}
+/* navigation bar */
+#navbar{
+      position: relative;
+}
+
+#navbar{
+      display: flex;
+      align-items: center;
+      
+}
+
+/* #navbar::before{
+      content: "";
+      background-color:aqua;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      opacity: 0.4;
+
+} */
+ /* logo and image */
+
+#logo{
+     margin: 10px 34px;
+}
+
+
+#logo img{
+      height: 62px;
+      margin: 3px 5px;
+}
+
+/*navigation bar list styling */
+#navbar{
+      position: relative;
+}
+#navbar ul{
+      display: flex;
+      font-family: 'Borel', cursive;
+}
+
+#navbar::before{
+      /* display: flex; */
+      content: "";
+      background-color:aqua;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      opacity: 0.4;
+
+}
+
+/* #navbar ul{
+      display: flex;
+} */
+
+#navbar ul li{
+      /* color: white; */
+      list-style: none;
+      font-size: 1.3rem;
+}
+
+#navbar ul li a{
+      /* color: white; */
+      list-style: none;
+      font-size: 1.3rem;
+}
+
+
+#navbar ul li a{
+      color: blue;
+      display: block;
+      padding: 3px 22px;
+      border-radius: 20px;
+      text-decoration: none;
+}
+#navbar ul li a:hover{
+      color: rgb(17, 17, 236);
+     background-color: skyblue;
+}
+/* Home ::selection */
+
+#home{
+      display: flex;
+      /* font-family: 'Bebas Neue', sans-sesSS; */
+      font-family: 'Pacifico', cursive;
+      flex-direction: column;
+      padding: 3px 200px;
+      height: 600px;
+      justify-content: center;
+      align-items: center;
+}
+#home img{
+      content: "";
+      background-image: url("../assignment3/images/bg2.png") no-repeat center center/cover;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      z-index: -1;
+      opacity: 0.95;
+}
+
+/* #home::before{
+      content: "";
+      background-color: url("./images/bg1.png.jpg") no-repeat center center/cover;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      opacity: 0.89;
+} */
+#home h1{
+   color: white;
+   text-align: center;
+}
+
+#home p{
+      color: white;
+      text-align: center;
+      font-size: 1.8rem;
+   }
+   /* services section */
+#services{
+      /* padding: 16px; */
+      /* margin: 150px; */
+      margin-top: 150px;
+      display: flex;
+      background-color: brown;
+}
+#services .box{
+      border: 2px solid brown;
+      padding: 20px;
+      margin: 6px 10px;
+      width: 400px;
+      border-radius: 14px;
+      background-color: rgb(246, 241, 241);
+      text-align: center;
+
+}
+#services .box img{
+height: 180px;
+margin: auto;
+padding: 16px;
+text-align: center;
+}
+
+
+/* utility classes */
+
+.h-primary{
+      font-size: 3.8rem;
+      padding: 12px;
+      text-align: center;
+}
+
+.h-secondary{
+      font-size:2.8rem;
+      padding: 20px;
+}
+
+.btn{
+      padding: 5px 20px;
+      border: 6px solid white;
+      background-color: brown;
+      color: white;
+      margin: 20px;
+      font-size: 1.5rem;
+      border-radius: 12px;
+      cursor: pointer;
+}
+.btn :hover{
+color: brown;
+background-color: white;
+}
+.center{
+      text-align: center;
+}
